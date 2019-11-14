@@ -1,0 +1,206 @@
+
+@media (max-width: 575.98px) { 
+     .First-Cover span{
+        font-size: 1.2em;
+    }
+
+    /* about us */ 
+    #aboutUs p {
+        font-size: 0.8em;
+    }
+
+    #aboutUs img{
+        width: 75%;
+    }
+
+    /* wha we offer */ 
+
+    .offer-card .card-img-top {
+        margin-top: 0.5em;
+        width: 100%;
+    }
+    .offer-card {
+  
+        padding: 0 20px;
+    }
+
+    .offer-card .card-title {
+        font-size: 1.5em;
+    }
+    .card-text:last-child {
+        font-size: 1em;
+    }
+    .card-body {
+        padding: .5rem;
+    }
+
+    .offer-arrows {
+        padding: 1em 0 1em 0;
+    }
+    
+#whatWeOffer{
+  
+    padding: 1em 1em 0em;
+
+}
+
+/* Articles */ 
+#articles {
+    padding: 2em 0 2em 0;
+ 
+}
+
+/* clients */ 
+#clients {
+    margin-top: 2em;
+    padding: 0;
+}
+.clients-slider{
+    padding: 4em 0 0 4.5em;
+}
+
+/* footer */ 
+.footer-logo-img {
+    width: 100%;
+}
+.footer-text {
+    font-weight: 400;
+}
+.footer-text p {
+    font-size: .8em;
+}
+.fa-2x {
+    font-size: 1em;
+}
+.footer-right img {
+    max-width: 100%;
+    width: 68%;
+}
+
+/*********** one app ***/ 
+#One-Cover img {
+    width: 85%;
+    max-width: 100%;
+}
+
+/****** Articles *****/ 
+.windows-article-card-img img {
+    width: 90%;
+    margin: 2em 0 2em 0;
+}
+.window-article-row {
+    padding: 1em 2em 1em 2em;
+}
+
+#Windows-Article p {
+
+    line-height: 1.9em;
+    margin: 0 2em 2em 2em;
+}
+}
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .First-Cover span{
+        font-size: 1.6em;
+    }
+   
+    /* about us */ 
+    #aboutUs p {
+        font-size: 0.8em;
+    }
+    #aboutUs img{
+        width: 80%;
+    }
+    
+     /* what we offer */
+    .offer-card .card-title {
+        font-size: 1em;
+    }
+    .card-text:last-child {
+        font-size: .9em;
+    }
+    .offer-card .card-img-top {
+        margin-top: 0.5em;
+        width: 60%;
+    }
+    .ourWork-card .card-title{
+        font-size: 1em
+    }
+
+    #articles .row .col-sm-6 {
+        padding: 2em 2em 2em 2em;
+    }
+    #articles {
+        padding: 2em 2em 2em 2em;
+    }
+
+/******************* one app */
+    #One-Cover img {
+        width: 100%;
+        max-width: 100%;
+    }
+    
+  /*************** articles */
+
+.window-article-row{
+    padding: 1em 1em 1em 1em; 
+}
+.windows-article-card-img img {
+    width: 85%;
+  
+    margin: 1em 0 1em 0;
+}
+#Windows-Article p {
+    
+    line-height: 2em;
+    margin: 0 1em 0em 1em;
+}
+ }
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    #articles .row .col-sm-6 {
+        padding: 2em 1em 1em 1em;
+    }
+    #articles {
+        padding: 2em 2em 2em 2em;
+    }
+    .ourWork-card .card-title{
+        font-size: 1em
+    }
+
+    /* main work */
+    .ourwork-main-card {
+    
+        margin: .5em;
+    }
+
+    /* main articles */
+    .articles-main-card {
+  
+        margin: 2em;
+    }
+
+
+    .window-article-row {
+        padding: 2em 2em 2em 2em;
+    }
+
+    .windows-article-card-img img {
+        width: 83%;
+      
+        margin: 2em 0 2em 0;
+    }
+
+ }
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+
+ }
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { 
+
+}
