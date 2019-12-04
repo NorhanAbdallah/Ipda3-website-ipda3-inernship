@@ -1,4 +1,5 @@
 $(document).ready(function(){
+ 
 
   $('.offer-slider').slick({
     slidesToShow: 3,
@@ -56,6 +57,9 @@ $(document).ready(function(){
       
     ]
   });
+
+
+  
 
 
   $num = $('.my-card').length;
