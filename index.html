@@ -12,8 +12,14 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
         integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Cairo" rel="stylesheet">
+    <link rel="stylesheet" href="Assets/css/animation.css">
     <link rel="stylesheet" href="Assets/css/style.css">
     <link rel="stylesheet" href="Assets/css/responsive.css">
+    <style>
+        .wow:first-child {
+          visibility: hidden;
+        }
+      </style>
 </head>
 
 <body style="font-family: 'Cairo', sans-serif;">
@@ -49,16 +55,16 @@
     </header>
 
 
-    <section id="Cover">
+    <section id="Cover" >
         <div class="container-fluid">
-            <div class="row">
+            <div class="row ">
                 <div class="col-7">
-                    <div class="First-Cover">
+                    <div class="First-Cover " >
                         <span>ابداع تك..شريكك التقني الأمثل لبدأ مشروعك الأن </span>
                     </div>
                 </div>
                 <div class="col-5">
-                    <div class="Second-Cover">
+                    <div class="Second-Cover " >
                         <img src="Assets/images/header.jpg" width="100%">
                     </div>
                 </div>
@@ -73,10 +79,10 @@
     </div>
 
 
-    <section id="aboutUs">
+    <section id="aboutUs" >
         <div class="container" style="text-align: center">
             <div class="row">
-                <div class="col-sm">
+                <div class="col-sm wow slideInLeft" data-wow-delay=".1s">
                     <p>
                         ابداع تك هي شركة برمجيات مصرية بأت عملها في عام 2012، متخصصون في برمجة تطبيقات الهواتف وتصميم
                         وتطوير المواقع الإلكترونية وبرامج المبيعات والبرامج الإدارية. راحة وإبهار عملائناهو ما يهمنا.
@@ -86,7 +92,7 @@
                     </p>
 
                 </div>
-                <div class="col-sm">
+                <div class="col-sm wow slideInRight" data-wow-delay=".1s">
                     <img src="Assets/images/who-are-we.png">
 
                 </div>
@@ -99,7 +105,7 @@
         <span id="title">ما نقدمه لكم </span>
     </div>
 
-    <section id="whatWeOffer">
+    <section id="whatWeOffer" class="wow bounceInLeft">
         <div class="container">
             <div class="offer-row">
                 <div class="offer-slider">
@@ -191,7 +197,7 @@
         <span id="title">بعض اعمالنا</span>
     </div>
 
-    <section id="ourWork">
+    <section id="ourWork" class="wow bounceInRight">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-sm">
@@ -266,7 +272,7 @@
     <section id="articles">
         <div class="container-fluid">
             <div class="row">
-                <div class="col-sm-6">
+                <div class="col-sm-6 wow slideInLeft">
                     <div class="card articles-card">
                         <img src="Assets/images/MICROsoft.jpg" class="card-img-top" alt="MICROsoft">
                         <div class="card-body">
@@ -280,7 +286,7 @@
                     </div>
                 </div>
 
-                <div class="col-sm-6">
+                <div class="col-sm-6 wow slideInLeft">
                     <div class="card articles-card">
                         <img src="Assets/images/MICROsoft.jpg" class="card-img-top" alt="MICROsoft">
                         <div class="card-body">
@@ -295,7 +301,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-sm-6 ">
+                <div class="col-sm-6 wow slideInRight">
                     <div class="card articles-card">
                         <img src="Assets/images/MICROsoft.jpg" class="card-img-top" alt="MICROsoft">
                         <div class="card-body">
@@ -308,7 +314,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-6 ">
+                <div class="col-sm-6 wow slideInRight">
                     <div class="card articles-card">
                         <img src="Assets/images/MICROsoft.jpg" class="card-img-top" alt="MICROsoft">
                         <div class="card-body">
@@ -400,7 +406,10 @@
     </footer>
 
 
-
+    <script type="text/javascript" src="Assets/js/wow.min.js"></script>
+    <script>
+    new WOW().init();
+    </script>
 
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
